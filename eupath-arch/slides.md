@@ -14,6 +14,12 @@ Note: Presenter notes are here.
 
 As of 2014, now includes HostDB, OrthoMCL.
 
+Note: EuPathDB BRC hosts many projects. We give each
+project a unique, short name that we use in casual 
+conversation and, most importantly, in naming conventions 
+for organizing websites and applications belonging to each project. 
+
+
 
 
 ![EuPathDB Extended Family](eupath-arch/Slide03.png)
@@ -44,9 +50,22 @@ The trunk svn code is branched to stablize the released website. Work for the ne
 
 ![Personal Development Sites](eupath-arch/Slide06.png)
 
+Note: having separate websites for each developer is great for 
+independent development and testing. The developer works on an 
+isolated website, then commits changes to the source code repository. 
+
+However, problems can arise:
+
+  - changes made by Developer 1 may be incompatible with Developer 2
+  - code may be tested against the wrong database
+  - subsets of code needed for a new feature may accidentally be omitted from the commit
+
+So we have 'integration' websites ...
+
 
 
 ![Integration Sites](eupath-arch/Slide08.png)
+
 
 
 
@@ -57,6 +76,11 @@ The trunk svn code is branched to stablize the released website. Work for the ne
 
 ![Beta Sites](eupath-arch/Slide12.png)
 
+Note: beta websites share the same code installation as
+the QA websites (just so we do not have to have yet 
+another set of websites to maintain). Beta websites are 
+really just an Apache virutal host that does not 
+require a password to accesss.
 
 
 
