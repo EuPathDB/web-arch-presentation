@@ -6,6 +6,8 @@
 
 Press 's' to open presenter mode and view slide notes.
 
+Note: Presenter notes are here.
+
 
 
 ![EuPathDB Family](eupath-arch/Slide02.png)
