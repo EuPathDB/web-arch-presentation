@@ -1,4 +1,5 @@
-### EuPathDB Web Infrastructure and Philosophy
+**EuPathDB Web Infrastructure and Philosophy**
+
 2011
 
 
